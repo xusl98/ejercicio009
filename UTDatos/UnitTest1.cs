@@ -118,7 +118,7 @@ namespace UTDatos
             string concatenado = String.Join("", claves);
 
 
-            Assert.Fail(concatenado);
+            Assert.AreEqual(concatenado, "clave0clave1clave2clave3clave4");
 
 
         }
